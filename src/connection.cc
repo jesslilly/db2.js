@@ -567,7 +567,7 @@ Handle<Value> Connection::Execute (const Arguments& args) {
                                 cx, 8);
                         return scope.Close(Undefined());
 						}
-                        value = = Local<Value>::New(String::New(stringTime));
+                        value = Local<Value>::New(String::New(stringTime));
                     }
                     break;
 				case SQL_TYPE_TIMESTAMP:
