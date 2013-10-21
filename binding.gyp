@@ -20,7 +20,10 @@
 				"libraries": [
 				"-L/opt/ibm/db2/V9.7/lib64",
 				"-ldb2"
-					]
+					],
+		          'include_dirs': [
+		            '/opt/ibm/db2/V9.7/include'
+		          ]
 				}
 				
 		
